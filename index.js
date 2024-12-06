@@ -14,7 +14,11 @@ app.use(cors());
 app.use(express.json());
 
 const anthropic = new Anthropic({
+<<<<<<< HEAD
   apiKey: "ANTHROPIC_API_KEY=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",
+=======
+  apiKey: "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",
+>>>>>>> f49a6ab439fe3a04225740e9d81ab16652e4bad3
 });
 
 // Fonction pour détecter si une chaîne contient des emojis
